@@ -1,0 +1,237 @@
+/*General*/
+*{
+    color:white;
+}
+
+h1,h2 {
+    text-align: center;
+}
+.navbar {
+    background-color: #003366;
+}
+
+div {
+    padding: 10px;
+}
+
+.container,.container-fluid {
+    display: flex;
+    padding-top: 100px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+section ion-icon{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+section {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    background: #003366;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 20px;
+    size: 100px;
+    width: 200px;
+}
+
+img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+footer {
+    background-color: black;
+    padding: 50px;
+    justify-content: center;
+}
+
+footer ion-icon {
+    font-size: 16px;
+    color: #003366;
+}
+
+footer div {
+    text-align: center;
+}
+
+/*index*/
+.portada{
+    background-image: url('../img/imagenfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    text-align: center;
+}
+
+ion-icon{
+     font-size: 64px;
+}
+
+/*sobreMi*/
+i{
+    font-size: 3rem;
+    color: white;
+}
+
+.bar{
+    background: #353b48;
+    display:block;
+    height: 2px;
+    border: 1px solid rbga(0,0,0,0.3);
+    border-radius: 3px;
+    overflow:hidden;
+    box-shadow: 0 0 10px #003399;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187ff;
+}
+
+.android{
+    width:50%;
+}
+
+.bootstrap {
+    width: 70%;
+}
+
+.c {
+    width: 70%;
+}
+
+.css {
+    width: 80%;
+}
+
+.html {
+    width: 90%;
+}
+
+.java {
+    width: 75%;
+}
+
+.javascript {
+    width: 50%;
+}
+
+.laravel {
+    width: 50%;
+}
+
+.mysql {
+    width: 70%;
+}
+
+.php {
+    width: 50%;
+}
+
+.postgresql {
+    width: 60%;
+}
+
+.vscode {
+    width: 85%;
+}
+/*Portafolio*/
+.portafolio img{
+    border-radius: 0px;
+    width:200px;
+    height:250px;
+}
+/*Contacto*/
+label {
+    color: white;
+}
+
+@media (max-width: 575px) {
+.btn {
+    width: 200px;
+}
+    section, footer div {
+        text-align: center;
+    }
+footer ion-icon {
+    font-size: 32px;
+    color: #003366;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .btn {
+        width: 200px;
+    }
+    section, footer div {
+        text-align: center;
+    }
+    footer ion-icon {
+        font-size: 32px;
+        color: #003366;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.btn {
+    width: 200px;
+}
+
+    section, footer div {
+        text-align: justify;
+    }
+footer ion-icon {
+    font-size: 16px;
+    color: #003366;
+}
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .btn {
+        width: 250px;
+    }
+    section, footer div {
+        text-align: justify;
+    }
+footer ion-icon {
+    font-size: 16px;
+    color: #003366;
+}
+}
+
+
+@media (min-width: 1200px) {
+   
+.btn {
+    width: 300px;
+}
+    section, footer div {
+        text-align: justify;
+    }
+footer ion-icon {
+    font-size: 16px;
+    color: #003366;
+}
+}
